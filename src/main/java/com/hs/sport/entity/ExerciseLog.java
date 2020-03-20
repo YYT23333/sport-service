@@ -17,12 +17,18 @@ public class ExerciseLog {
     @Id
     @GeneratedValue
     private Long id;
+
+    @Column
+    private Long userId;
     
     @Column
     private ExerciseLogType type;
 
     @Column
     private LocalDateTime time;
+
+    @Column
+    private Double timeConsuming;
 
     @Column
     private double distance;
