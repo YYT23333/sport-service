@@ -1,22 +1,25 @@
 package com.hs.sport.response;
 
 import com.hs.sport.entity.CourseLog;
-import lombok.AllArgsConstructor;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Data
-@NoArgsConstructor
+@ApiModel
 public class CourseLogListResponse extends Response {
-    private List<CourseLogItem> items;
+    @ApiModelProperty("返回数据")
+    private List<CourseLogItem> data;
 
     public CourseLogListResponse(List<CourseLog> logs) {
-        this.items=new ArrayList<>();
+        this.data=new ArrayList<>();
+        this.code = "200";
+        this.msg = "操作成功！";
         for (CourseLog log : logs) {
-            items.add(new CourseLogItem(log));
+            this.data.add(new CourseLogItem(log));
         }
     }
 }

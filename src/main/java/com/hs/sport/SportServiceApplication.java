@@ -13,12 +13,12 @@ import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@EnableEurekaClient
 @EnableHystrix
 @EnableFeignClients
+@SpringBootApplication
+@EnableEurekaClient
 @EnableSwagger2
 @EnableJpaRepositories("com.hs.sport.dao")
-@SpringBootApplication//申明这是一个Spring Boot项目
 @ComponentScan(basePackages = {"com.hs.sport.controller", "com.hs.sport.serviceImpl","com.hs.sport.dataServiceImpl"})//手动指定bean组件扫描范围
 public class SportServiceApplication {
     public static void main(String[] args) {

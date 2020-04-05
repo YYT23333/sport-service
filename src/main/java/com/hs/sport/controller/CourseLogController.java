@@ -35,8 +35,7 @@ public class CourseLogController {
     @ApiOperation(value = "通过用户id获取课程记录")
     @ApiImplicitParam(name = "userId", value = "用户id", required = true, dataType = "Long")
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Success", response = CourseLogListResponse.class),
-            @ApiResponse(code = 500, message = "Failure", response = WrongResponse.class)})
+            @ApiResponse(code = 200, message = "Success", response = CourseLogListResponse.class)})
     @RequestMapping(value = "/user/{userId}",method=RequestMethod.GET)
     public ResponseEntity<Response> findByUserId(@PathVariable Long userId) {
         return new ResponseEntity<>(courseLogService.findByUser(userId), HttpStatus.OK);

@@ -1,18 +1,19 @@
 package com.hs.sport.response;
 
 import com.hs.sport.entity.CourseLog;
-import lombok.AllArgsConstructor;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
+@ApiModel
 public class CourseLogDetailResponse extends  Response{
-
-    private CourseLogDetailItem item;
+    @ApiModelProperty("返回数据")
+    private CourseLogDetailItem data;
 
     public CourseLogDetailResponse(CourseLog courseLog){
-        this.item=new CourseLogDetailItem(courseLog);
+        this.code = "200";
+        this.msg = "操作成功！";
+        this.data=new CourseLogDetailItem(courseLog);
     }
 }

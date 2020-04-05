@@ -1,18 +1,14 @@
 package com.hs.sport.response;
 
-import io.swagger.annotations.ApiModelProperty;
+import io.swagger.annotations.ApiModel;
 import lombok.Data;
 
 @Data
+@ApiModel
 public class WrongResponse extends Response {
-    @ApiModelProperty("错误码")
-    private int infoCode;
-    @ApiModelProperty("错误描述")
-    private String description;
-
-    public WrongResponse(int infoCode, String description) {
-        this.infoCode = infoCode;
-        this.description = description;
+    public WrongResponse(String infoCode, String description) {
+        this.code = infoCode;
+        this.msg = description;
     }
 
 }
