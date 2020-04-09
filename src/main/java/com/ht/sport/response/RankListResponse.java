@@ -13,7 +13,7 @@ public class RankListResponse extends Response {
     private List<RankItem> data;
 
     public RankListResponse(List<RankItem> items) {
-        this.code = "200";
+        this.code = 200;
         this.msg = "操作成功！";
         this.data=items;
     }

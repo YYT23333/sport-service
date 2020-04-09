@@ -10,7 +10,7 @@ public class AddResponse extends Response {
     @ApiModelProperty("返回数据")
     private Long data;
     public AddResponse(Long id){
-        this.code = "200";
+        this.code = 200;
         this.msg = "操作成功！";
         this.data=id;
     }

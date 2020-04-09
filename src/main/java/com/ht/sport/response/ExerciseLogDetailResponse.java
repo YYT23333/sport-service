@@ -13,7 +13,7 @@ public class ExerciseLogDetailResponse extends Response {
     private ExerciseLogItem data;
 
     public ExerciseLogDetailResponse(ExerciseLog exerciseLog){
-        this.code = "200";
+        this.code = 200;
         this.msg = "操作成功！";
         this.data=new ExerciseLogItem(exerciseLog);
     }

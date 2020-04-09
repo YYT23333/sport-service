@@ -15,7 +15,7 @@ public class ExerciseLogListResponse extends Response{
     private List<ExerciseLogItem> data;
 
     public ExerciseLogListResponse(List<ExerciseLog> exerciseLogs){
-        this.code = "200";
+        this.code = 200;
         this.msg = "操作成功！";
         this.data=new ArrayList<>();
         for (ExerciseLog log:exerciseLogs) {

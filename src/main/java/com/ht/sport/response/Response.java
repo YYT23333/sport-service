@@ -10,7 +10,7 @@ import java.io.Serializable;
 @ApiModel
 public class Response implements Serializable {
     @ApiModelProperty("code")
-    public String code;
+    public int code;
     @ApiModelProperty("code详情")
     public String msg;
 }
