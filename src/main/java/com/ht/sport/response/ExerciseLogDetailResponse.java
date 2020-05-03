@@ -17,4 +17,10 @@ public class ExerciseLogDetailResponse extends Response {
         this.msg = "操作成功！";
         this.data=new ExerciseLogItem(exerciseLog);
     }
+
+    public ExerciseLogDetailResponse(ExerciseLogItem exerciseLogItem){
+        this.code = 200;
+        this.msg = "操作成功！";
+        this.data=exerciseLogItem;
+    }
 }

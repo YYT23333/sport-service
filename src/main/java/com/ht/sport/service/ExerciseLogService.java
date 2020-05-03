@@ -12,7 +12,7 @@ import com.ht.sport.response.RankListResponse;
 public interface ExerciseLogService {
     AddResponse create(ExerciseLogParameter parameter);
     ExerciseLogDetailResponse findById(Long id) throws NotExistException;
-    ExerciseLogListResponse findByUserAndType(Long userId, ExerciseLogType type);
+    ExerciseLogListResponse findByUserAndType(Long userId, ExerciseLogType type,int page,int pageSize);
     RankListResponse rank30ByType(ExerciseLogType type);
     RankListResponse sortByType(ExerciseLogType type);
     RankListResponse rank30();

@@ -6,6 +6,7 @@ import com.ht.sport.entity.ExerciseLog;
 import com.ht.sport.enums.ExerciseLogType;
 import com.ht.sport.exception.NotExistException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -34,8 +35,8 @@ public class ExerciseLogDataServiceImpl implements ExerciseLogDataService {
     }
 
     @Override
-    public List findByUserIdAndType(Long userId, ExerciseLogType exerciseLogType) {
-        return exerciseLogDao.findByUserIdAndType(userId, exerciseLogType);
+    public List findByUserIdAndType(Long userId, ExerciseLogType exerciseLogType, Pageable pageable) {
+        return exerciseLogDao.findByUserIdAndType(userId, exerciseLogType.ordinal(),pageable);
     }
 
     @Override

@@ -7,6 +7,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @ApiModel
@@ -15,7 +16,7 @@ public class ExerciseLogItem {
     private long id;
 
     @ApiModelProperty("课程id(type==COURSE时才有)")
-    private long courseId;
+    private int courseId;
 
     @ApiModelProperty("课程名称(type==COURSE时才有)")
     private String courseName;
@@ -41,13 +42,22 @@ public class ExerciseLogItem {
     @ApiModelProperty("消耗卡路里")
     private double calories;
 
+    @ApiModelProperty("经度列表(type!=COURSE时才有)")
+    private List<Double> longitudes;
+
+    @ApiModelProperty("纬度列表(type!=COURSE时才有)")
+    private List<Double> latitudes;
+
     public ExerciseLogItem(ExerciseLog log){
         this.id=log.getId();
+        this.courseId=log.getCourseId();
         this.type=log.getType();
         this.time=log.getTime();
         this.timeConsuming=log.getTimeConsuming();
         this.distance=log.getDistance();
         this.speed=log.getSpeed();
         this.calories=log.getCalories();
+        this.longitudes=log.getLongitudes();
+        this.latitudes=log.getLatitudes();
     }
 }

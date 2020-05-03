@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -22,7 +23,7 @@ public class ExerciseLog {
     private long userId;
 
     @Column
-    private long courseId;
+    private int courseId;
     
     @Column
     private ExerciseLogType type;
@@ -41,5 +42,11 @@ public class ExerciseLog {
 
     @Column
     private double calories;
+
+    @ElementCollection
+    private List<Double> longitudes;
+
+    @ElementCollection
+    private List<Double> latitudes;
 
 }

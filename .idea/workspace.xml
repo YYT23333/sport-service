@@ -2,13 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="513b0d5c-c6e2-4472-bd86-467bf1435298" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/exception/NotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/exception/NotExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/AddResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/AddResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sport_service_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/fallback/CourseServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/fallback/UserServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/feign/CourseFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseNameAndAvatarItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/UserInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/UserNameAndAvatar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/SportServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/SportServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/controller/ExerciseLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/controller/ExerciseLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/dao/ExerciseLogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/dao/ExerciseLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/dataService/ExerciseLogDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/dataService/ExerciseLogDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/dataServiceImpl/ExerciseLogDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/dataServiceImpl/ExerciseLogDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/entity/ExerciseLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/entity/ExerciseLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/parameters/ExerciseLogParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/parameters/ExerciseLogParameter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogDetailResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogDetailResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/WrongResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/response/WrongResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/service/ExerciseLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/service/ExerciseLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hs/sport/controller/CourseLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/SportServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/SportServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/controller/ExerciseLogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/controller/ExerciseLogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/dao/ExerciseLogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/dao/ExerciseLogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/dataService/ExerciseLogDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/dataService/ExerciseLogDataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/dataServiceImpl/ExerciseLogDataServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/dataServiceImpl/ExerciseLogDataServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/entity/ExerciseLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/entity/ExerciseLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/enums/ExerciseLogType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/enums/ExerciseLogType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/exception/NotExistException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/exception/NotExistException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/parameters/ExerciseLogParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/parameters/ExerciseLogParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/response/AddResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/response/AddResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/response/ExerciseLogDetailResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/response/ExerciseLogDetailResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/response/ExerciseLogItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/response/ExerciseLogItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/response/ExerciseLogListResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/response/ExerciseLogListResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/response/RankItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/response/RankItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/response/RankListResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/response/RankListResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/response/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/response/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/response/WrongResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/response/WrongResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/service/ExerciseLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/service/ExerciseLogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sport-service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sport-service.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,113 +80,55 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="sport@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="homework@182.92.8.29" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="sport@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="homework@182.92.8.29" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="sport@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="homework@182.92.8.29" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="sport: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="homework: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="sport@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="sport: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="exercise_log: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="mysql@101.200.237.82" type="feb32156:DbDataSourceImpl" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NotExistException.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/exception/NotExistException.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="171">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExerciseLogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/controller/ExerciseLogController.java">
+      <file leaf-file-name="UserFeignClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/feign/UserFeignClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="57">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceFallback.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/fallback/UserServiceFallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercise_log" pinned="false" current-in-tab="false">
-        <entry file="das://65bb3f26-c8c4-4778-9f12-a0c261266b48/schema/sport/table/exercise_log">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExerciseLogDetailResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogDetailResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WrongResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/WrongResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/AddResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RankListResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankListResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExerciseLogListResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogListResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,8 +137,8 @@
       <file leaf-file-name="ExerciseLogServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1235">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+            <state relative-caret-position="-361">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,14 +146,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/Response.java">
+      <file leaf-file-name="CourseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/CourseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="266">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+              <folding>
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExerciseLogService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/service/ExerciseLogService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseFeignClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/feign/CourseFeignClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseServiceFallback.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/fallback/CourseServiceFallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="t_courses" pinned="false" current-in-tab="false">
+        <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/t_courses">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -204,28 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/exception/NotExistException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/dao/CourseLogDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/dao/ExerciseLogDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/dataService/CourseLogDataService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/dataServiceImpl/CourseLogDataServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/springcontroller/groupon/GrouponController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/dataServiceImpl/ExerciseLogDataServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/serviceImpl/ExerciseLogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/serviceImpl/CourseLogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/service/CourseLogService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/response/CourseLogDetailItem.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/SportServiceApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/entity/CourseLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/response/CourseLogItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/controller/CourseLogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/response/Response.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/response/CourseLogDetailResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/response/CourseLogListResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/response/WrongResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hs/sport/exception/NotExistException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseLogDetailItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/TimeRankItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseLogItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogDetailItem.java" />
@@ -238,23 +264,45 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/enums/ExerciseLogType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/dataService/CourseLogDataService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/CourseLogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/service/ExerciseLogService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/dataService/ExerciseLogDataService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/controller/ExerciseLogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/entity/ExerciseLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/dao/ExerciseLogDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/dataServiceImpl/ExerciseLogDataServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/parameters/ExerciseLogParameter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/WrongResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankListResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogListResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogDetailResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/AddResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/exception/NotExistException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/entity/UserNameAndAvatar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/UserNameAndAvatar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/FoodService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/FoodDetailResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/FoodDetailItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/UserInfoResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/dataService/ExerciseLogDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/dataServiceImpl/ExerciseLogDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/dao/ExerciseLogDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/service/ExerciseLogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/entity/ExerciseLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/parameters/ExerciseLogParameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseNameAndAvatarItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseDetailResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogDetailResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogListResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/controller/ExerciseLogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/feign/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/SportServiceApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/fallback/UserServiceFallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/fallback/CourseServiceFallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/feign/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ht/sport/feign/CourseFeignClient.java" />
       </list>
     </option>
   </component>
@@ -300,10 +348,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="394" />
-    <option name="y" value="20" />
-    <option name="width" value="1850" />
-    <option name="height" value="1854" />
+    <option name="x" value="108" />
+    <option name="y" value="54" />
+    <option name="width" value="1388" />
+    <option name="height" value="1756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -313,7 +361,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -463,6 +510,28 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ht" type="462c0819:PsiDirectoryNode" />
               <item name="sport" type="462c0819:PsiDirectoryNode" />
+              <item name="fallback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sport-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sport-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ht" type="462c0819:PsiDirectoryNode" />
+              <item name="sport" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sport-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sport-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ht" type="462c0819:PsiDirectoryNode" />
+              <item name="sport" type="462c0819:PsiDirectoryNode" />
               <item name="parameters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,15 +574,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sport-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sport-service" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,6 +586,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Dou/Documents/hs/sport-service/src/main/java/com/ht/sport/service/UserService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -528,7 +594,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -628,50 +694,66 @@
       <workItem from="1584693363904" duration="12644000" />
       <workItem from="1586166699233" duration="1903000" />
       <workItem from="1586243954703" duration="18819000" />
-      <workItem from="1586418626203" duration="235000" />
+      <workItem from="1586418626203" duration="3921000" />
+      <workItem from="1586681110339" duration="4933000" />
+      <workItem from="1586761021378" duration="10564000" />
+      <workItem from="1587133813530" duration="4641000" />
+      <workItem from="1587805512954" duration="1122000" />
+      <workItem from="1587906984074" duration="15000" />
+      <workItem from="1587907504581" duration="16813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47430000" />
+    <option name="totallyTimeSpent" value="89439000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50037795" side_tool="true" weight="0.32933334" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.20559335" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.23658352" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17762661" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20634921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919892" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32977304" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32843792" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962208" weight="0.32443258" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49962208" visible="true" weight="0.32443258" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32977304" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2244898" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32977304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21088435" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977304" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32843792" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32977304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32977304" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -719,197 +801,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ht/sport/controller/ExerciseLogController.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java</url>
-          <line>56</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../diet-service/src/main/java/com/ht/diet/response/RecipeListResponse.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/CourseService.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/parameters/ExerciseLogParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/springcontroller/address/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="86" column="34" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/data/coupon/CouponDataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/data/dao/coupon/CouponDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/data/dao/groupon/GrouponDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/exception/WrongPasswordException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/data/groupon/GrouponDataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/response/WrongResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/response/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/exception/CannotGetOpenIdAndSessionKeyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/CodeTools/JDK8/JDK/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/exception/NotExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bath/bath.Backend/src/main/java/bath/springcontroller/groupon/GrouponController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="187" column="91" lean-forward="true" selection-start-line="184" selection-start-column="3" selection-end-line="187" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseLogListResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseLogDetailResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseLogItem.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://65bb3f26-c8c4-4778-9f12-a0c261266b48/schema/sport/table/course_log">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dao/CourseLogDao.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/entity/CourseLog.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/enums/ExerciseLogType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dataService/CourseLogDataService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dataServiceImpl/CourseLogDataServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/service/CourseLogService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/CourseLogServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseLogDetailItem.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/controller/CourseLogController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/controller/RankController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/SportServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dataService/ExerciseLogDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/service/ExerciseLogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/CodeTools/JDK8/JDK/src.zip!/java/util/function/BiConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -917,82 +836,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/CodeTools/apache-maven-3.6.1/repository/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/WrongResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="152">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/entity/ExerciseLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/parameters/ExerciseLogParameter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/exception/NotExistException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dao/ExerciseLogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dataServiceImpl/ExerciseLogDataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1003,40 +857,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/controller/ExerciseLogController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/AddResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/t_course_records">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/t_courses_online">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/t_course_comments">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/t_course_online_contents">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/entity/UserNameAndAvatar.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/FoodService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/FoodDetailResponse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/FoodDetailItem.java" />
+    <entry file="file://$PROJECT_DIR$/../diet-service/src/main/java/com/ht/diet/response/RecipeDetailItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dataServiceImpl/ExerciseLogDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dao/ExerciseLogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/WrongResponse.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/507ec015-ae5c-4ee7-aaf5-aadedbc938e6/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/parameters/ExerciseLogParameter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="190">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/RankListResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="266">
+          <caret line="18" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseNameAndAvatarItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/UserNameAndAvatar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/CourseInfoResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/entity/ExerciseLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1045,35 +990,219 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogListResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/dataService/ExerciseLogDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/ExerciseLogDetailResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="380">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CodeTools/JDK8/JDK/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1323" selection-start-line="1323" selection-end-line="1323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/t_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CodeTools/JDK8/JDK/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CodeTools/apache-maven-3.6.1/repository/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/recipe_collection">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/recipe_star">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/controller/ExerciseLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="34" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/AddResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/SportServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="295">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/exception/NotExistException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/response/UserInfoResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="228">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/ExerciseLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/serviceImpl/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/service/ExerciseLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/feign/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/fallback/UserServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/fallback/CourseServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/exercise_log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c6a3fa4b-9f1a-46ef-9d47-1d48fb34e04c/schema/homework/table/t_courses">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ht/sport/feign/CourseFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1083,10 +1212,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>sport-service:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
