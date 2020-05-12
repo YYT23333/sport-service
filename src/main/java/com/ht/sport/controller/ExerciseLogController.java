@@ -21,7 +21,7 @@ public class ExerciseLogController {
     @ApiResponses({
             @ApiResponse(code = 200, message = "Success", response = Response.class)})
     @RequestMapping(value = "", method = RequestMethod.POST)
-    public ResponseEntity<Response> createNewLog(@RequestBody @ApiParam ExerciseLogParameter parameter) throws NotExistException {
+    public ResponseEntity<Response> createNewLog(@RequestBody @ApiParam ExerciseLogParameter parameter){
         return new ResponseEntity<>(exerciseLogService.create(parameter), HttpStatus.OK);
     }
 
@@ -32,7 +32,7 @@ public class ExerciseLogController {
     @ApiResponses({
             @ApiResponse(code = 200, message = "Success", response = ExerciseLogDetailResponse.class)})
     @RequestMapping(value = "/id/{id}", method = RequestMethod.GET)
-    public ResponseEntity<Response> findById(@PathVariable Long id) throws NotExistException {
+    public ResponseEntity<Response> findById(@PathVariable Long id) {
         return new ResponseEntity<>(exerciseLogService.findById(id), HttpStatus.OK);
     }
 

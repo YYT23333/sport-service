@@ -12,6 +12,7 @@ C:\Users\Dou\Documents\hs\sport-service\src\main\java\com\ht\sport\enums\Exercis
 C:\Users\Dou\Documents\hs\sport-service\src\main\java\com\ht\sport\serviceImpl\CourseService.java
 C:\Users\Dou\Documents\hs\sport-service\src\main\java\com\ht\sport\response\WrongResponse.java
 C:\Users\Dou\Documents\hs\sport-service\src\main\java\com\ht\sport\feign\CourseFeignClient.java
+C:\Users\Dou\Documents\hs\sport-service\src\main\java\com\ht\sport\entity\Position.java
 C:\Users\Dou\Documents\hs\sport-service\src\main\java\com\ht\sport\response\CourseNameAndAvatarItem.java
 C:\Users\Dou\Documents\hs\sport-service\src\main\java\com\ht\sport\SportServiceApplication.java
 C:\Users\Dou\Documents\hs\sport-service\src\main\java\com\ht\sport\response\ExerciseLogListResponse.java

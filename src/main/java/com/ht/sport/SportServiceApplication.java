@@ -17,6 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableEurekaClient
 @EnableSwagger2
 @EnableJpaRepositories("com.ht.sport.dao")
+@EnableHystrix
 @EnableFeignClients(basePackages ="com.ht.sport.feign")
 @ComponentScan(basePackages = {"com.ht.sport.controller", "com.ht.sport.serviceImpl", "com.ht.sport.dataServiceImpl","com.ht.sport.fallback"})//手动指定bean组件扫描范围
 public class SportServiceApplication {

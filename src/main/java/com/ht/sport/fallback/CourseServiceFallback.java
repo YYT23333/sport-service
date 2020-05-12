@@ -9,8 +9,9 @@ import java.util.List;
 
 @Component
 public class CourseServiceFallback implements CourseFeignClient {
+
     @Override
-    public CourseInfoResponse findNameAndAvatarByCourseIds(@RequestParam  List<Integer> courseIds) {
+    public CourseInfoResponse findNameAndAvatarByCourseIds(List<Integer> courseIds) {
         return new CourseInfoResponse();
     }
 }

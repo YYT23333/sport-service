@@ -44,9 +44,6 @@ public class ExerciseLog {
     private double calories;
 
     @ElementCollection
-    private List<Double> longitudes;
-
-    @ElementCollection
-    private List<Double> latitudes;
+    private List<Position> positions;
 
 }

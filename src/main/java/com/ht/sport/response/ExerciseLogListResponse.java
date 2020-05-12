@@ -17,4 +17,8 @@ public class ExerciseLogListResponse extends Response{
         this.msg = "操作成功！";
         this.data=exerciseLogItems;
     }
+    public ExerciseLogListResponse(int code,String msg){
+        this.code = code;
+        this.msg = msg;
+    }
 }

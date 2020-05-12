@@ -13,6 +13,9 @@ public class CourseService  {
     private CourseFeignClient courseFeignClient;
 
     public CourseInfoResponse getCourseInfo(List<Integer> courseIds) {
+        if(courseIds==null || courseIds.size()<1){
+            return new CourseInfoResponse();
+        }
         return courseFeignClient.findNameAndAvatarByCourseIds(courseIds);
     }
 

@@ -2,6 +2,7 @@ package com.ht.sport.serviceImpl;
 
 import com.ht.sport.dataService.ExerciseLogDataService;
 import com.ht.sport.entity.ExerciseLog;
+import com.ht.sport.entity.Position;
 import com.ht.sport.enums.ExerciseLogType;
 import com.ht.sport.exception.NotExistException;
 import com.ht.sport.parameters.ExerciseLogParameter;
@@ -43,15 +44,26 @@ public class ExerciseLogServiceImpl implements ExerciseLogService {
         } else {
             log.setDistance(parameter.getDistance());
             log.setSpeed(parameter.getSpeed());
-            log.setLongitudes(parameter.getLongitudes());
-            log.setLatitudes(parameter.getLatitudes());
+            List<Position> positions=new ArrayList<>();
+            for (int i = 0; i < parameter.getLatitudes().size(); i++) {
+                Position position=new Position();
+                position.setLatitudes(parameter.getLatitudes().get(i));
+                position.setLongitude(parameter.getLongitudes().get(i));
+                positions.add(position);
+            }
+            log.setPositions(positions);
         }
         return new AddResponse(exerciseLogDataService.create(log));
     }
 
     @Override
-    public ExerciseLogDetailResponse findById(Long id) throws NotExistException {
-        ExerciseLog log = exerciseLogDataService.findById(id);
+    public ExerciseLogDetailResponse findById(Long id) {
+        ExerciseLog log = null;
+        try {
+            log = exerciseLogDataService.findById(id);
+        } catch (NotExistException e) {
+            return new ExerciseLogDetailResponse(500, e.getMessage());
+        }
         ExerciseLogItem item = new ExerciseLogItem(log);
         if (log.getType() == ExerciseLogType.COURSE) {
             List<Integer> courseIds = Collections.singletonList(log.getCourseId());

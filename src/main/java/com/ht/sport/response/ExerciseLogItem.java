@@ -8,6 +8,7 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Data
 @ApiModel
@@ -57,7 +58,7 @@ public class ExerciseLogItem {
         this.distance=log.getDistance();
         this.speed=log.getSpeed();
         this.calories=log.getCalories();
-        this.longitudes=log.getLongitudes();
-        this.latitudes=log.getLatitudes();
+        this.longitudes=log.getPositions().stream().map(Position->Position.getLongitude()).collect(Collectors.toList());
+        this.latitudes=log.getPositions().stream().map(Position->Position.getLatitudes()).collect(Collectors.toList());
     }
 }

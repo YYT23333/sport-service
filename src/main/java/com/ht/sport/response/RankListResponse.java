@@ -17,4 +17,8 @@ public class RankListResponse extends Response {
         this.msg = "操作成功！";
         this.data=items;
     }
+    public RankListResponse(int code,String msg){
+        this.code = code;
+        this.msg = msg;
+    }
 }

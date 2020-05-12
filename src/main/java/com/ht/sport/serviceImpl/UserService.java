@@ -13,6 +13,9 @@ public class UserService {
     private UserFeignClient userFeignClient;
 
     public UserInfoResponse getUserInfo(List<Long> userid) {
+        if(userid==null || userid.size()<1){
+            return new UserInfoResponse();
+        }
         return userFeignClient.getNameAndAvatar(userid);
     }
 

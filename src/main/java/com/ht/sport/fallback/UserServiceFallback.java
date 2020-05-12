@@ -11,7 +11,7 @@ import java.util.List;
 public class UserServiceFallback implements UserFeignClient {
 
     @Override
-    public UserInfoResponse getNameAndAvatar(@RequestParam List<Long> userid) {
+    public UserInfoResponse getNameAndAvatar(List<Long> userid) {
         return new UserInfoResponse();
     }
 }

@@ -14,4 +14,8 @@ public class AddResponse extends Response {
         this.msg = "操作成功！";
         this.data=id;
     }
+    public AddResponse(int code,String msg){
+        this.code = code;
+        this.msg = msg;
+    }
 }
